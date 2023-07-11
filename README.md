@@ -14,3 +14,6 @@ The Greeks give the sensitivity of the price of derivatives to a change in diffe
 We also implement Delta-Hedging, the Delta of an option $V$ is given by
 $$\Delta = \frac{\partial V}{\partial S}$$
 where $S$ is the stock price. At each step we caluclate the Delta and buy/sell the given amount of shares so that the portfolio's Delta is zero.
+
+![image](https://github.com/alexisdpc/Black-Scholes-and-Greeks/assets/124795834/13b9e5cb-d120-4294-8a57-63a870ce44a7)
+
