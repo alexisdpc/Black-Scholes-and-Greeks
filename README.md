@@ -4,7 +4,7 @@
 
 In the Black-Scholes model, the stock price follows a Geometric Brownian motion
 $$dS_t = \mu \, S_t \, dt + \sigma \, S_t \, dW_t,$$
-where $\mu$ is the drift coefficient and $\sigma^2$ corresponds to the volatility \
+where $\mu$ is the drift coefficient and $\sigma^2$ corresponds to the volatility. \
 \
 \
 **Greeks and Delta-Hedging**
