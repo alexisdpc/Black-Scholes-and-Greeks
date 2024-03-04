@@ -2,7 +2,7 @@
 
 **Black-Scholes Model**
 
-In the Black-Scholes model, the stock price follows a Geometric Brownian motion
+In the Black-Scholes model, the stock price follows a Geometric Brownian motio
 $$dS_t = \mu \\, S_t \\, dt + \sigma \\, S_t \\, dW_t,$$
 where $\mu$ is the drift coefficient and $\sigma^2$ corresponds to the volatility. \
 \
