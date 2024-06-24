@@ -4,7 +4,9 @@
 
 In the Black-Scholes model, the stock price follows a Geometric Brownian motion
 $$dS_t = \mu \\, S_t \\, dt + \sigma \\, S_t \\, dW_t,$$
-where $\mu$ is the drift coefficient and $\sigma^2$ corresponds to the volatility. \
+where $\mu$ is the drift coefficient and $\sigma^2$ corresponds to the volatility. 
+
+To price the spread option of two futures contracts see [Kirk's approximation](https://github.com/alexisdpc/Black-Scholes-and-Greeks/blob/main/Kirks-approximation/kirks-approx.md)
 \
 \
 **Greeks and Delta-Hedging**
