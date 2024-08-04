@@ -1,6 +1,6 @@
 # Black Scholes and Greeks
 
-**Black-Scholes Model
+**Black-Scholes Model**
 
 In the Black-Scholes model, the stock price follows a Geometric Brownian motion
 
