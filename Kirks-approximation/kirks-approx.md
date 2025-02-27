@@ -48,13 +48,21 @@ where $\rho$ is the correlation between the two futures contracts.
 
 ## Delta
 We can have either Delta with respect to $F_1$:
+
 $$\Delta_1 = \frac{\partial c}{\partial F_1} = e^{-rT} N(d_1) $$
+
 or with respect to $F_2$:
+
 $$\Delta_2 = \frac{\partial c}{\partial F_2} = e^{-rT} \left[ -N(d_2) +(F_2+K) e^{-d_2^2/2} \sqrt{T}  \frac{\partial \sigma}{\partial F_2} \right]$$
+
 and we have that 
+
 $$\frac{\partial \sigma}{\partial F_2} = \frac{ \sigma_2 K (\beta - \rho \sigma_1)  }{ \sigma (F_2+K)^2 } $$
+
 where
+
 $$\beta =\frac{\sigma_2 F_2}{F_2+K} $$
+
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/4539e204-2471-4ccd-9fc5-cd0cf25bd95e)
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/2d50300b-4cc8-455d-8fd8-5b25cc1462c7)
 
@@ -62,7 +70,9 @@ $$\beta =\frac{\sigma_2 F_2}{F_2+K} $$
 
 ## Vega
 Vega gives the sensitivity to the implied volatility
+
 $$\mathcal{V} = \frac{\partial c}{\partial \sigma} = F_1 e^{-rT} e^{-d_1^2/2} \sqrt{T} $$
+
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/7fe79cc4-0ee5-492c-8dca-0c2f40dee2bb)
 
 # Call option price:
